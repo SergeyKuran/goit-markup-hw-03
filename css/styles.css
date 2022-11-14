@@ -97,7 +97,7 @@ p {
 }
 
 /* секція падинги */
-section {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -336,18 +336,18 @@ section {
 /* Блок в портфоліо */
 /* Portfolio */
 .container-portfolio {
-  width: 1200px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .container-portfolio > .picture {
+  width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid var(--border-portfolio-cards);
+  border: 1px solid var(--border-portfolio-cards);
 }
 
-.picture :nth-child(2n + 1) {
+.picture:nth-child(3n) {
   margin-right: 0;
 }
 .picture:nth-last-of-type(-n + 3) {
