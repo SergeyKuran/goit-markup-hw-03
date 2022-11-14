@@ -46,11 +46,14 @@ p {
   margin-right: auto;
 }
 
+.header-title {
+  border-bottom: 1px solid var(--header-title-border-bottom);
+}
+
 /* main nav */
 .main-nav {
   align-items: center;
   display: flex;
-  border-bottom: 1px solid var(--header-title-border-bottom);
 }
 
 .nav-up,
@@ -92,6 +95,7 @@ p {
   text-decoration: none;
   color: var(--color-accent);
 }
+
 /* секція падинги */
 section {
   padding-top: 94px;
